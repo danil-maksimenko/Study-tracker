@@ -1,5 +1,5 @@
-import { Task } from "./Task.js";
-import { generateID } from "./utils.js";
+import { Task } from "../models/Task.js";
+import { generateID } from "../utils/utils.js";
 
 export class TaskManager {
   constructor() {

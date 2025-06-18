@@ -1,5 +1,5 @@
-import { TaskManager } from "./TaskManager.js";
-import { UserManager } from "./UserManager.js";
+import { TaskManager } from "./managers/TaskManager.js";
+import { UserManager } from "./managers/UserManager.js";
 
 const taskManager = new TaskManager();
 const userManager = new UserManager();
